@@ -2,6 +2,7 @@ import math
 import random
 
 
+
 print(""" 
       
       investment - to calculate the amount of interest you'll earn on your investment. 
@@ -9,7 +10,8 @@ print("""
        """)
 
 choice = str(input("Enter either 'investment' or 'bond' from the menu above to proceed: ")).lower()
-
+# create an if elif else statement that takes in the 'choice' variable and checks if it is either 'investment' or 'bond' and then runs the corresponding line of code depending on the value of the 'choice' variable. 
+# There's also an error message in the case that the 'choice' variable is neither  'investment' or 'bond'. 
 if choice != "investment" and choice != "bond":
     print("Error. Run again")
 elif choice == "investment": 
