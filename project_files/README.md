@@ -1,2 +1,2 @@
 # finance_calculator
- Allowing user to figure out investment types and calculated expected interest on those investments. 
+Allowing users to figure out investment types and calculate expected interest on those investments. 
