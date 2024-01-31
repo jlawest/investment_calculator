@@ -20,7 +20,7 @@ elif choice == "investment":
     num_years = int(input("How many years do you plan to invest for? "))
     interest = str(input("Do you want a 'compound' or 'simple' investment type? ")).lower()
     r = interest_rate/100
-
+# nested if else statement that will check if the 'interest' variable is either 'compound' or'simple' and then run the corresponding line of code. 
     if interest == "compound":
         print("You chose Compound amount")
         total_amount = amount * math.pow((1 +r), num_years)
